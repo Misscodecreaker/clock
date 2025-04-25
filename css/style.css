@@ -1,0 +1,53 @@
+body {
+  background: rgb(2, 0 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(117, 117, 223) 35%,
+    rgb(91, 215, 240) 100%
+  );
+}
+
+#clockContainer {
+  position: relative;
+  margin: 70px auto;
+  height: 40vw;
+  width: 40vw;
+  background-size: 100%;
+  background-image: url(../img/pngtree-watch-clock-numbers-vector-and-transparent-image-donwload-png-image_6263690.png);
+  background-repeat: no-repeat;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: #000;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 20%;
+  top: 30%;
+  left: 48.8%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 25%;
+  top: 25%;
+  left: 48.8%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 30%;
+  top: 20%;
+  left: 49.1%;
+
+  opacity: 0.8;
+}
